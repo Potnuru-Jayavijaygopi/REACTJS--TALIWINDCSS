@@ -2,69 +2,69 @@ import React from 'react'
 
 const Mobile = () => {
   return (
-   <section class="text-center py-15 px-5">
+   <section id='APP' className="text-center py-15 px-5">
 
-    <div class="inline-flex items-center gap-2.5 px-6 py-2.5 border border-[#5BBFB5] rounded-[30px] bg-[#a5eee7] text-[#0a8a7a] text-[14px] font-bold tracking-[2px] font-serif">
+    <div className="inline-flex items-center gap-2.5 px-6 py-2.5 border border-[#5BBFB5] rounded-[30px] bg-[#a5eee7] text-[#0a8a7a] text-[14px] font-bold tracking-[2px] font-serif">
 
-        <span class="w-2.5 h-2.5 bg-[#0a8a7a] rounded-full"></span>
+        <span className="w-2.5 h-2.5 bg-[#0a8a7a] rounded-full"></span>
 
         MOBILE APP
 
     </div>
 
-    <h2 class="text-[64px] leading-none mt-2.5 font-semibold text-[#0D1E1C]">
+    <h2 className="text-[64px] leading-none mt-2.5 font-semibold text-[#0D1E1C]">
         Your workspace,<br/>
 
-        <span class="text-[#1A7A6E] italic font-['Cormorant_Garamond']">
+        <span className="text-[#1A7A6E] italic font-['Cormorant_Garamond']">
             in your pocket
         </span>
     </h2>
 
-    <p class="max-w-150 mx-auto mt-6.25 text-[#3A5C58] leading-[1.8]">
+    <p className="max-w-150 mx-auto mt-6.25 text-[#3A5C58] leading-[1.8]">
         The Clearwave mobile app brings every dashboard,
         task and notification to you — beautifully adapted
         for any screen.
     </p>
 
-    <div class="flex justify-center items-center gap-5 mt-2.5">
+    <div className="flex justify-center items-center gap-5 mt-2.5">
 
-        <button class="w-7.5 h-7.5 rounded-full border border-[#e0eeed] bg-white text-[20px] text-[#0a8a7a] cursor-pointer">
+        <button className="w-7.5 h-7.5 rounded-full border border-[#e0eeed] bg-white text-[20px] text-[#0a8a7a] cursor-pointer">
             −
         </button>
 
-        <div class="flex gap-1.25">
-            <span class="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-[#0a8a7a]"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
-            <span class="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
+        <div className="flex gap-1.25">
+            <span className="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
+            <span className="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
+            <span className="w-2.5 h-2.5 rounded-full bg-[#0a8a7a]"></span>
+            <span className="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
+            <span className="w-2.5 h-2.5 rounded-full bg-[#dbe7e6]"></span>
         </div>
 
-        <button class="w-7.5 h-7.5 rounded-full border border-[#dcebea] bg-white text-[20px] text-[#0a8a7a] shadow-[0_4px_12px_rgba(0,0,0,0.05)] cursor-pointer">
+        <button className="w-7.5 h-7.5 rounded-full border border-[#dcebea] bg-white text-[20px] text-[#0a8a7a] shadow-[0_4px_12px_rgba(0,0,0,0.05)] cursor-pointer">
             +
         </button>
 
     </div>
 
-    <div class="h-95 max-w-250 mx-auto my-10 rounded-[30px] bg-[#EEF7F5] border border-dashed border-[#d7ece8]"></div>
+    <div className="h-95 max-w-250 mx-auto my-10 rounded-[30px] bg-[#EEF7F5] border border-dashed border-[#d7ece8]"></div>
 
-    <div class="flex justify-center items-center gap-5">
+    <div className="flex justify-center items-center gap-5">
 
-        <button class="w-10.5 h-10.5 rounded-full border border-[rgba(13,30,28,0.08)] bg-white">
+        <button className="w-10.5 h-10.5 rounded-full border border-[rgba(13,30,28,0.08)] bg-white">
             ‹
         </button>
 
-        <div class="flex gap-2">
+        <div className="flex gap-2">
 
-            <span class="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
-            <span class="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
-            <span class="w-5.5 h-2 rounded-[20px] bg-[#1A7A6E]"></span>
-            <span class="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
-            <span class="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
+            <span className="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
+            <span className="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
+            <span className="w-5.5 h-2 rounded-[20px] bg-[#1A7A6E]"></span>
+            <span className="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
+            <span className="w-2 h-2 rounded-full bg-[#d3dfdd]"></span>
 
         </div>
 
-        <button class="w-10.5 h-10.5 rounded-full border border-[rgba(13,30,28,0.08)] bg-white">
+        <button className="w-10.5 h-10.5 rounded-full border border-[rgba(13,30,28,0.08)] bg-white">
             ›
         </button>
 
